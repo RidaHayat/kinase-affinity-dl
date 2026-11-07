@@ -16,6 +16,7 @@ def main():
         ("01_fetch_data.py", "1. Fetching & Preprocessing Kinase Bioactivity Data"),
         ("02_train_model.py", "2. Featurizing with RDKit & Training PyTorch Deep Learning Model"),
         ("03_visualize.py", "3. Generating Publication Plots & Interactive Dashboard"),
+        ("04_kinase_selectivity.py", "4. Computing Consortium Prioritization & Selectivity Scores"),
     ]
     
     for script, desc in steps:
