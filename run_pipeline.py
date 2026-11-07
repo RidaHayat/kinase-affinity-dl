@@ -17,6 +17,7 @@ def main():
         ("02_train_model.py", "2. Featurizing with RDKit & Training PyTorch Deep Learning Model"),
         ("03_visualize.py", "3. Generating Publication Plots & Interactive Dashboard"),
         ("04_kinase_selectivity.py", "4. Computing Consortium Prioritization & Selectivity Scores"),
+        ("05_structure_docking_bridge.py", "5. Bridging 3D Receptor Docking Features with Bioactivity"),
     ]
     
     for script, desc in steps:

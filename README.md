@@ -6,8 +6,9 @@ This repository demonstrates an end-to-end computational drug discovery workflow
 1. **Bioactivity Data Curation:** Programmatic retrieval and standardization of kinase inhibitor data from the ChEMBL database.
 2. **Cheminformatics Featurization:** High-dimensional 1024-bit Morgan Fingerprints (ECFP4 equivalent) paired with 2D physicochemical descriptors using **RDKit**.
 3. **Deep Learning Model (PyTorch):** Deep Multi-Layer Perceptron (MLP) with Batch Normalization, Dropout regularization, and learning rate scheduling.
-4. **Baseline Benchmarking:** Rigorous comparison against Random Forest regression evaluating RMSE, MAE, Pearson $r$, and $R^2$.
-5. **Interactive Prioritization Dashboard:** Interactive Plotly explorer for compound ranking and residual inspection.
+4. **Structure-Based Docking Bridge:** Integration of 3D receptor-ligand interaction parameters (AutoDock binding energy, hinge-region H-bonds, and pocket occlusion inspired by CASTp analysis) to explore hybrid proteochemometric representations.
+5. **Consortium Prioritization & Selectivity:** Automated scoring module computing off-target kinome selectivity margins and prioritization rankings for lead optimization.
+6. **Interactive Prioritization Dashboard:** Interactive Plotly explorer for compound ranking and residual inspection.
 
 ---
 
